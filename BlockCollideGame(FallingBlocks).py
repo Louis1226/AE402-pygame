@@ -67,7 +67,7 @@ while not done:
     random_x = random.get_randbits(player_x)
     random_y = random.get_randbits(player_y)
     if space.key_down():
-        player = (WHITE,random_x,random_y）
+        player = (WHITE,random_x,random_y）＃按鍵按下改變顏色與位置
     for block in score_group:
         score+=1
         block.reset_pos()
